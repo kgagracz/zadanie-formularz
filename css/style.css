@@ -3,7 +3,8 @@
 }
 form > input,
 form > select,
-label,
+label[for="gender"],
+label[for="msg"],
 textarea {
     display: block;
 }
@@ -12,3 +13,7 @@ input[type = "radio"],
 input[type = "checkbox"] {
     display: inline;
 }
+
+/* label {
+    display: block;
+} */
